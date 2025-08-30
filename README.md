@@ -4,13 +4,13 @@ Assistant intelligent combinant recherche sémantique et génération de répons
 
 ##  Fonctionnalités
 
-- **🔍 Recherche sémantique** avec FAISS et embeddings
-- **🎭 Analyse de sentiment** et extraction d'aspects
-- **⚡ Règles métier automatiques** pour le traitement des avis
-- **🤖 Fine-tuning GPT-4** pour des réponses personnalisées
-- **📊 Interface Chainlit** intuitive
-- **🔌 API REST Flask** pour intégration
-- **🐳 Déploiement Docker** complet
+- **Recherche sémantique** avec FAISS et embeddings
+- **Analyse de sentiment** et extraction d'aspects
+- **Règles métier automatiques** pour le traitement des avis
+- **Fine-tuning GPT-4** pour des réponses personnalisées
+- **Interface Chainlit** intuitive
+- **API REST Flask** pour intégration
+- **Déploiement Docker** complet
 
 ##  Prérequis
 
