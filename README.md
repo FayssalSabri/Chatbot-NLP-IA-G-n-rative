@@ -201,7 +201,6 @@ python scripts/benchmark_faiss.py
 ### Docker Compose Production
 ```yaml
 # docker-compose.prod.yml
-version: '3.8'
 services:
   app:
     image: chatbot-nlp:latest
