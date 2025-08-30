@@ -277,4 +277,3 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 - [ ] **v1.2** : Intégration Elasticsearch
 - [ ] **v1.3** : Tableau de bord analytique
 - [ ] **v2.0** : Architecture microservices
-```
