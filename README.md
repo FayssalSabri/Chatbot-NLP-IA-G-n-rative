@@ -1,8 +1,8 @@
-# 🤖 Chatbot NLP & IA Générative
+#  Chatbot NLP & IA Générative
 
 Assistant intelligent combinant recherche sémantique et génération de réponses pour l'analyse d'avis clients avec application de règles métier.
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 - **🔍 Recherche sémantique** avec FAISS et embeddings
 - **🎭 Analyse de sentiment** et extraction d'aspects
@@ -12,19 +12,19 @@ Assistant intelligent combinant recherche sémantique et génération de répons
 - **🔌 API REST Flask** pour intégration
 - **🐳 Déploiement Docker** complet
 
-## 📋 Prérequis
+##  Prérequis
 
 - Python 3.11+
 - Docker & Docker Compose
 - Clé API OpenAI
 - 8GB RAM minimum (pour FAISS)
 
-## ⚡ Installation Rapide
+##  Installation Rapide
 
 1. **Cloner le repository**
 ```bash
-git clone <repository-url>
-cd chatbot-nlp-project
+git clone https://github.com/FayssalSabri/Chatbot-NLP-IA-G-n-rative.git
+cd CHATBOT-AVIS
 ```
 
 2. **Configuration**
@@ -52,7 +52,7 @@ make build
 make up
 ```
 
-## 🎯 Utilisation
+##  Utilisation
 
 ### Interface Chainlit (Recommandée)
 ```
@@ -64,7 +64,7 @@ http://localhost:8000
 http://localhost:5000
 ```
 
-## 📚 Documentation API
+##  Documentation API
 
 ### Endpoints principaux
 
@@ -109,7 +109,7 @@ Préprocessing de texte
 └── docker/             # Configuration Docker
 ```
 
-## 🧠 Composants Techniques
+##  Composants Techniques
 
 ### 1. Preprocessing (NLP)
 - **spaCy** : Extraction d'entités
@@ -131,7 +131,7 @@ Préprocessing de texte
 - **Génération contextuelle** de réponses
 - **Templates adaptatifs**
 
-## ⚙️ Configuration Avancée
+##  Configuration Avancée
 
 ### Variables d'environnement
 ```bash
@@ -168,7 +168,7 @@ rule = BusinessRule(
 rules_engine.add_rule(rule)
 ```
 
-## 📊 Monitoring
+##  Monitoring
 
 ### Métriques disponibles
 - **Performance recherche** : temps de réponse FAISS
@@ -183,7 +183,7 @@ import structlog
 logger = structlog.get_logger()
 ```
 
-## 🧪 Tests
+##  Tests
 
 ```bash
 # Tests unitaires
@@ -196,7 +196,7 @@ python -m pytest tests/integration/
 python scripts/benchmark_faiss.py
 ```
 
-## 🚀 Déploiement Production
+##  Déploiement Production
 
 ### Docker Compose Production
 ```yaml
@@ -224,7 +224,7 @@ index.hnsw.efConstruction = 200
 index.hnsw.efSearch = 128
 ```
 
-## 🔧 Développement
+##  Développement
 
 ### Ajout de nouvelles fonctionnalités
 
@@ -254,7 +254,7 @@ job_id = fine_tuner.create_fine_tune_job(file_id)
 model_id = fine_tuner.wait_for_completion(job_id)
 ```
 
-## 🤝 Contribution
+##  Contribution
 
 1. Fork le projet
 2. Créer une branche feature (`git checkout -b feature/nouvelle-fonctionnalite`)
@@ -262,17 +262,17 @@ model_id = fine_tuner.wait_for_completion(job_id)
 4. Push vers la branche (`git push origin feature/nouvelle-fonctionnalite`)
 5. Créer une Pull Request
 
-## 📄 Licence
+##  Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
-## 🆘 Support
+##  Support
 
 - **Documentation** : [Wiki du projet](link-to-wiki)
 - **Issues** : [GitHub Issues](link-to-issues)
 - **Discord** : [Communauté développeurs](link-to-discord)
 
-## 🎯 Roadmap
+##  Roadmap
 
 - [ ] **v1.1** : Support multi-langues
 - [ ] **v1.2** : Intégration Elasticsearch
