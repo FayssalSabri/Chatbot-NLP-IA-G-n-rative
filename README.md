@@ -267,9 +267,8 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ##  Support
 
-- **Documentation** : [Wiki du projet](link-to-wiki)
-- **Issues** : [GitHub Issues](link-to-issues)
-- **Discord** : [Communauté développeurs](link-to-discord)
+- **Documentation** : [Wiki du projet](coming soon)
+- **Discord** : [Communauté développeurs](comming soon)
 
 ##  Roadmap
 
